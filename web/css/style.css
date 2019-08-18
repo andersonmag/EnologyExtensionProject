@@ -51,7 +51,7 @@ a:focus, a:hover {
 	outline: none;
 }
 body{
-    background: url('../images/fundo.jpg');
+    background: url('../images/fundo.jpg') no-repeat;
     /* url('../images/banner1.jpg') */
     /* rgb(58, 156, 185)*/
     background-size: cover;
@@ -161,7 +161,7 @@ input[type="submit"] {
     border-radius: 0;
     font-size: 15px;
     letter-spacing: 2px;
-    width: 60%;
+    width: 100%;
 }
 
 .submit:hover {
