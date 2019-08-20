@@ -50,12 +50,28 @@ a:focus, a:hover {
 	text-decoration: none;
 	outline: none;
 }
+p.pzinho{
+    font-size: 12px;
+    margin-bottom: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(163, 160, 0);
+}
 body{
     background: url('../images/fundo.jpg') no-repeat;
     /* url('../images/banner1.jpg') */
     /* rgb(58, 156, 185)*/
     background-size: cover;
 	min-height: 100vh;
+}
+
+label {
+    margin: 20px 0px 8px 0px;
+    font-size: 13px;
+    color: #000;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 .agile-login {
 
@@ -86,6 +102,14 @@ input[type="text"] {
     letter-spacing: 1px;
     box-sizing: border-box;
 }
+
+label.ola{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    font-size: 20px;
+
+}
 .agile-login h1 {
     text-align: center;
     color: #fff;
@@ -106,8 +130,7 @@ input[type="text"] {
 a.pass {
     font-size: 15px;
 	    color: #ef4242;
-		font-family: 'Open Sans', sans-serif;
-		    letter-spacing: 2px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .w3ls-form a {
     display: block;
@@ -115,15 +138,7 @@ a.pass {
 	    margin: 15px 0px;
 }
 
-label {
-    margin: 20px 0px 8px 0px;
-    font-size: 13px;
-    color: #000;
-    font-weight: 600;
-    font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
+
 input[type="submit"] {
 	margin: 20px auto;
     padding: 9px 60px;
