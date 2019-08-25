@@ -1,10 +1,3 @@
-.imagens{
-    height: 65px;
-    width: 65px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto
-}
 .fundo{
     background-image: url('../images/bg_mapa.png');
     background-position: center center;
@@ -12,4 +5,8 @@
     background-attachment: fixed;
     background-size: cover;
     background-color: white;
+}
+canvas {
+	display: block;
+	margin: 0 auto;
 }
