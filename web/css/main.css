@@ -87,6 +87,14 @@ h4, h5, h6 {
   font-weight: 500;
 }
 
+p.pzinho{
+  margin-left: 2%;
+  font-size: 15px;
+  margin-bottom: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(163, 160, 0);
+}
+
 .h1, .h2, .h3,
 .h4, .h5, .h6 {
   margin-bottom: 0;
@@ -114,6 +122,7 @@ h4, .h4 {
 
 h4.hello{
   margin-top: 15%;
+  font-size: 30px;
 }
 
 img.user{				
