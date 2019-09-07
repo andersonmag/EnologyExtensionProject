@@ -1,7 +1,7 @@
 var canvas = document.getElementById("canvas");
 var ctx = canvas.getContext("2d");
 
-function resize() {
+document.body.onresize = function resize() {
 
 	var height = window.innerHeight;
 	
@@ -12,7 +12,16 @@ function resize() {
 	canvas.style.height = height+'px';
 }
 
+document.body.onload = function resize() {
 
+	var height = window.innerHeight;
+	
+	var ratio = canvas.width/canvas.height;
+	var width = height * ratio;
+	
+	canvas.style.width = width+'px';
+	canvas.style.height = height+'px';
+}
 
 //Level 1
 //Círculo 1
