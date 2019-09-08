@@ -14,7 +14,6 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,500,600" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/mapa.css">
-
 </head>
 
 <body>
@@ -51,26 +50,29 @@
                 <div class="col-lg-12">
                     <div class="form-inline">
                         <img class="user" src="images/pig.png">
+
                         <h4 class="hello">Scanor</h4>
+                        <a name="veim"></a>
                     </div>
                 </div>
             </div>
+
             <div class="row">
 
                 <div class="col-lg-12">
                     <nav>
+
                         <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home"
+                            <a class="nav-item nav-link " id="nav-home-tab" data-toggle="tab" href="#nav-home"
                                 role="tab" aria-controls="nav-home" aria-selected="true"
                                 style="font-size: 20px;">Progresso</a>
-                            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile"
-                                role="tab" aria-controls="nav-profile" aria-selected="false"
+                            <a class="nav-item nav-link active" id="nav-profile-tab" data-toggle="tab"
+                                href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"
                                 style="font-size: 20px;">Perfil</a>
                         </div>
                     </nav>
                     <div class="tab-content" id="nav-tabContent">
-                        <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
-                            aria-labelledby="nav-home-tab">
+                        <div class="tab-pane fade show " id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                             <div class="row">
                                 <div class="col-lg-7">
                                     <div class="form-inline">
@@ -129,11 +131,15 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade mb-3" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+
+                        <div class="tab-pane fade show active mb-3" id="nav-profile" role="tabpanel"
+                            aria-labelledby="nav-profile-tab">
+
                             <h5 style="color: rgb(48, 119, 119); font-size: 25px;" class="ml-3 mt-2">Detalhes de Perfil
                             </h5>
-                            <ul class="list-group mt-3">
 
+                            <ul class="list-group mt-3">
+                                <form action="perfil.html">
 
                                 <li class="list-group-item form-inline"><b>Nome:</b>
                                     <input type="text" class="form-control" name="nome" value="Scanor" required />
@@ -151,9 +157,9 @@
                                     <input type="password" class="form-control" name="repsenha" />
                                 </li>
                                 <li class="list-group-item"><b>País</b> BRASIL</li>
-                                <a href="perfil.html" style="width: 80%;"><button type="submit"
-                                        class="btn submit">Atualizar</button></a>
+                                <button type="submit" class="btn submit" style="width: 50%;">Atualizar</button>
                             </ul>
+                        </form>
 
                             <h5 style="color: rgb(48, 119, 119); font-size: 25px; margin: 2%" class="ml-3 mt-2">
                                 Configurações</h5>
@@ -171,6 +177,11 @@
                 </div>
             </div>
         </div>
+
+        <script>
+            location.href = "#veim";
+            
+        </script>
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
