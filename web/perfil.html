@@ -128,7 +128,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" >
+						<div class="tab-pane fade mb-3" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
 							<h5 style="color: rgb(48, 119, 119); font-size: 25px;" class="ml-3 mt-2">Detalhes de Perfil
 							</h5>
 							<ul class="list-group mt-3">
@@ -137,8 +137,9 @@
 								<li class="list-group-item"><b>Nome: </b> Scanor</li>
 								<li class="list-group-item"><b>E-mail: </b> scanor@gmail.com</li>
 								<li class="list-group-item"><b>País</b> BRASIL</li>
-								<a href="editarDadosPerfil.html" style="width: 80%;"><button type="submit"
-										class="btn submit">Editar Perfil</button></a>
+								<a href="editarDadosPerfil.html#ancora" id="editarDadosPerfil.html"
+									style="width: 80%;"><button type="submit" class="btn submit">Editar
+										Perfil</button></a>
 							</ul>
 
 							<h5 style="color: rgb(48, 119, 119); font-size: 25px; margin: 2%" class="ml-3 mt-2">
@@ -146,7 +147,12 @@
 
 							<li class="list-group-item"><i>Recado</i><textarea class="form-control"
 									id="exampleFormControlTextarea1" rows="2" style="width: 60%"></textarea></li>
-							<li class="list-group-item mb-2">Permitir Notificações</li>
+							<li class="list-group-item mb-2">Permitir Notificações
+								<div class="material-switch pull-right">
+									<input id="someSwitchOptionPrimary" name="someSwitchOption001" type="checkbox" />
+									<label for="someSwitchOptionPrimary" class="label-primary"></label>
+								</div>
+							</li>
 						</div>
 					</div>
 				</div>
