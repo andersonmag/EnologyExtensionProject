@@ -84,7 +84,6 @@
 
 body {
   color: #777777;
-  font-weight: 300;
   line-height: 1.5em;
   position: relative;
 }
@@ -871,11 +870,6 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 8px;
   cursor: pointer;
   border: 1px solid #f1f1f1;
-}
-
-.confirm-radio input:checked + label {
-  background: url(../img/elements/success-radio.png) no-repeat center center/cover;
-  border: none;
 }
 
 .disabled-radio {
