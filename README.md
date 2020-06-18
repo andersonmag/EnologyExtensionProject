@@ -21,8 +21,8 @@
 `Version 0.1 started in 14 Aug 2019(First Commit)`
 
 - *0.1 Version*
-- Versão online hospedada no [Github Pages](https://andersonmag.github.io/e-nology-v0.1/web/)):
-`https://andersonmag.github.io/e-nology-projectV0.1/web/`
+- Versão online hospedada no [Github Pages](https://andersonmag.github.io/e-nology-v0.1/web/):
+`https://andersonmag.github.io/e-nology-v0.1/web/`
 - Ou baixe/clone o projeto, após basta abrir a página `index.html`
 
 `Ended on 5 Oct 2019(Last Commit)`
